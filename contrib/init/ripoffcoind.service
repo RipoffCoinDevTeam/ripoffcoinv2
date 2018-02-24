@@ -1,0 +1,22 @@
+[Unit]
+Description=Dash's distributed currency daemon
+After=network.target
+
+[Service]
+User=ripoffcoincore
+Group=ripoffcoincore
+
+Type=forking
+PIDFile=/var/lib/ripoffcoind/ripoffcoind.pid
+ExecStart=/usr/bin/ripoffcoind -daemon -pid=/var/lib/ripoffcoind/ripoffcoind.pid \
+-conf=/etc/ripoffcoincore/ripoffcoin.conf -datadir=/var/lib/ripoffcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

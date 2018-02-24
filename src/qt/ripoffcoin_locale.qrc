@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/ripoffcoin_bg.qm</file>
+        <file alias="de">locale/ripoffcoin_de.qm</file>
+        <file alias="en">locale/ripoffcoin_en.qm</file>
+        <file alias="es">locale/ripoffcoin_es.qm</file>
+        <file alias="fi">locale/ripoffcoin_fi.qm</file>
+        <file alias="fr">locale/ripoffcoin_fr.qm</file>
+        <file alias="it">locale/ripoffcoin_it.qm</file>
+        <file alias="ja">locale/ripoffcoin_ja.qm</file>
+        <file alias="pl">locale/ripoffcoin_pl.qm</file>
+        <file alias="pt">locale/ripoffcoin_pt.qm</file>
+        <file alias="ru">locale/ripoffcoin_ru.qm</file>
+        <file alias="sk">locale/ripoffcoin_sk.qm</file>
+        <file alias="sv">locale/ripoffcoin_sv.qm</file>
+        <file alias="vi">locale/ripoffcoin_vi.qm</file>
+        <file alias="zh_CN">locale/ripoffcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/ripoffcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

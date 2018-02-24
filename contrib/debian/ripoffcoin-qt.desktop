@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dash
+Comment=Dash P2P Cryptocurrency
+Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
+Exec=ripoffcoin-qt %u
+Terminal=false
+Type=Application
+Icon=ripoffcoin128
+MimeType=x-scheme-handler/ripoffcoin;
+Categories=Office;Finance;

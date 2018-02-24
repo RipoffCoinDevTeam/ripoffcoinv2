@@ -1,0 +1,6 @@
+usr/local/bin/ripoffcoin-qt usr/bin
+share/pixmaps/ripoffcoin32.xpm usr/share/pixmaps
+share/pixmaps/ripoffcoin16.xpm usr/share/pixmaps
+share/pixmaps/ripoffcoin128.png usr/share/pixmaps
+debian/ripoffcoin-qt.desktop usr/share/applications
+debian/ripoffcoin-qt.protocol usr/share/kde4/services/
